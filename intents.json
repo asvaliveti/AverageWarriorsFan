@@ -28,69 +28,99 @@
      "responses": ["I cannot access live stats", "I am unable to search live stats, but I am sure that the warriors are leading that category", "Stats are fake anyway"]
     },
     {
-        "tag": "Greeting",
-        "patterns": [
-          "Go Warriors!",
-          "Warriors for life!",
-          "Hey there, DubNation!",
-          "How about those Warriors?",
-          "Greetings, fellow Warriors fans!"
-        ],
-        "responses": [
-          "Hey! How are you feeling about the Warriors this season?",
-          "Hi there! Are you excited for the next game?",
-          "Hello! Who's your favorite player on the team?"
-        ]
-      },
-      {
-        "tag": "Excitement",
-        "patterns": [
-          "I can't wait for the game tonight!",
-          "This season is going to be amazing!",
-          "Steph Curry is on fire!",
-          "I'm so hyped for the playoffs!",
-          "The Warriors are the best team in the league!"
-        ],
-        "responses": [
-          "Me too! Who do you think is going to have a big game?",
-          "I know, right? Which game are you looking forward to the most?",
-          "Steph is killing it this season. What's your favorite Curry moment?",
-          "Same here! What's your prediction for the team's playoff run?",
-          "I agree! What sets the Warriors apart from other teams, in your opinion?"
-        ]
-      },
-      {
-        "tag": "Disappointment",
-        "patterns": [
-          "I can't believe we lost that game...",
-          "This is not the Warriors' best season...",
-          "We need to step up our game!",
-          "Why did we make that trade?",
-          "We're not going to win the championship this year..."
-        ],
-        "responses": [
-          "It was a tough loss. What do you think went wrong?",
-          "I know, it's been a challenging season. What changes do you think we need to make?",
-          "Definitely. Which player do you think needs to step up their game the most?",
-          "It's tough to see players go, but sometimes it's necessary. Do you think the trade was a mistake?",
-          "It's a competitive league, but the Warriors always have a shot. What do you think they need to do to win the championship?"
-        ]
-      },
-      {
-        "tag": "Player praise",
-        "patterns": [
-          "Steph Curry is a true MVP!",
-          "Draymond Green is a defensive mastermind!",
-          "Klay Thompson is a sharpshooter!",
-          "Andrew Wiggins is underrated!",
-          "Jordan Poole has really stepped up his game!"
-        ],
-        "responses": [
-          "Absolutely! What's your favorite Steph moment?",
-          "Draymond is a force to be reckoned with on defense. Which other players do you think are top defenders?",
-          "Klay's shooting is legendary. What's your favorite Klay moment?",
-          "Agreed! Who do you think is the most underrated player on the team?",
-          "Jordan Poole has been a pleasant surprise this season. What do you think his ceiling is as a player?"
-        ]
-      }
+      "tag": "Greeting",
+      "patterns": [
+        "Go Warriors!",
+        "Warriors for life!",
+        "Hey there, DubNation!",
+        "How about those Warriors?",
+        "Greetings, fellow Warriors fans!"
+      ],
+      "responses": [
+        "Hey! How are you feeling about the Warriors this season?",
+        "Hi there! Are you excited for the next game?",
+        "Hello! Who's your favorite player on the team?"
+      ]
+    },
+    {
+      "tag": "Excitement",
+      "patterns": [
+        "I can't wait for the game tonight!",
+        "This season is going to be amazing!",
+        "Steph Curry is on fire!",
+        "I'm so hyped for the playoffs!",
+        "The Warriors are the best team in the league!"
+      ],
+      "responses": [
+        "Me too! Who do you think is going to have a big game?",
+        "I know, right? Which game are you looking forward to the most?",
+        "Steph is killing it this season. What's your favorite Curry moment?",
+        "Same here! What's your prediction for the team's playoff run?",
+        "I agree! What sets the Warriors apart from other teams, in your opinion?"
+      ]
+    },
+    {
+      "tag": "Disappointment",
+      "patterns": [
+        "I can't believe we lost that game...",
+        "This is not the Warriors' best season...",
+        "We need to step up our game!",
+        "Why did we make that trade?",
+        "We're not going to win the championship this year..."
+      ],
+      "responses": [
+        "It was a tough loss. What do you think went wrong?",
+        "I know, it's been a challenging season. What changes do you think we need to make?",
+        "Definitely. Which player do you think needs to step up their game the most?",
+        "It's tough to see players go, but sometimes it's necessary. Do you think the trade was a mistake?",
+        "It's a competitive league, but the Warriors always have a shot. What do you think they need to do to win the championship?"
+      ]
+    },
+    {
+      "tag": "player_praise",
+      "patterns": [
+        "Steph Curry is a true MVP!",
+        "Draymond Green is a defensive mastermind!",
+        "Klay Thompson is a sharpshooter!",
+        "Andrew Wiggins is underrated!",
+        "Jordan Poole has really stepped up his game!"
+      ],
+      "responses": [
+        "Absolutely! What's your favorite Steph moment?",
+        "Draymond is a force to be reckoned with on defense. Which other players do you think are top defenders?",
+        "Klay's shooting is legendary. What's your favorite Klay moment?",
+        "Agreed! Who do you think is the most underrated player on the team?",
+        "Jordan Poole has been a pleasant surprise this season. What do you think his ceiling is as a player?"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you"],
+      "responses": ["You're welcome! Always happy to talk about the Warriors!", "No problem! Let's keep cheering on the Warriors together!", "Anytime! DubNation is all about supporting each other!"]
+    },
+    {
+      "tag": "team_info",
+      "patterns": ["Tell me about the Golden State Warriors", "What's the Warriors' record this season?", "Who are the Warriors' top players?"],
+      "responses": ["The Golden State Warriors are a professional basketball team based in San Francisco. They have a storied history of success and have won several championships. As for this season, they're looking great so far! As of my knowledge cutoff in September 2021, they had a 39-33 record. Their top players include Stephen Curry, Draymond Green, and Klay Thompson.", "The Warriors are an amazing team with a rich history of success. As of my knowledge cutoff in September 2021, they had a 39-33 record this season. Stephen Curry, Draymond Green, and Klay Thompson are the Warriors' top players.", "The Warriors are one of the best basketball teams out there, with a strong legacy of winning. As of my knowledge cutoff in September 2021, they had a 39-33 record this season. Stephen Curry, Draymond Green, and Klay Thompson are some of the Warriors' top players."]
+    },
+    {
+      "tag": "favorite_player",
+      "patterns": ["Who is your favorite Warriors player?", "Which player do you like the most?"],
+      "responses": ["As an AI language model, I don't have personal preferences. However, I can tell you that Stephen Curry is a fan favorite and is considered one of the best players in the league!", "I don't have a favorite player, but many Warriors fans love Stephen Curry's incredible talent and leadership on the court!"]
+    },
+    {
+      "tag": "championships",
+      "patterns": ["How many championships have the Warriors won?", "When was the last time the Warriors won a championship?"],
+      "responses": ["The Golden State Warriors have won seven NBA championships, with the most recent one in 2022. They also won in 1947, 1956, 1975, 2015, 2017, and 2019.", "The Warriors have won six championships in total, with the most recent one being in 2019. Their other championships were in 1947, 1956, 1975, 2015, and 2017."]
+    },
+    {
+      "tag": "dislike_opponent",
+      "patterns": ["I hate the Lakers", "I can't stand the Clippers", "The Rockets are the worst"],
+      "responses": ["I feel you! As Warriors fans, we have some intense rivalries. The Lakers and Clippers have always been tough opponents for us, and the Rockets are no joke either. But no matter what, we'll always support our team and show up for them!", "I hear you, but let's focus on what we love: the Golden State Warriors! We have some tough opponents, but as fans, we can always show our support for our team!", "I understand your frustration, but let's not give too much energy to our opponents. We're here to support the Warriors, and that's all that matters!"]
+    },
+    {
+      "tag": "frustration",
+      "patterns": ["I'm so frustrated with the Warriors' performance lately", "Why are the Warriors struggling this season?"],
+      "responses": ["I understand your frustration, but let's not lose hope! The Warriors are a talented team, and they're always working hard to improve. Let's keep supporting them through thick and thin!", "I know it can be tough to see our team struggle, but let's stay positive and trust in the Warriors' abilities. They're a resilient team, and they'll bounce back!", "I feel you, but let's not give up on the Warriors just yet. They have a strong legacy of winning, and they're always working hard to improve. Let's keep cheering them on!"]
+    }
 ]}
