@@ -3,6 +3,7 @@ import string
 import random 
 import nltk
 import numpy as np
+import json
 from nltk.stem import WordNetLemmatizer 
 import tensorflow as tf 
 from tensorflow.keras import Sequential 
@@ -10,29 +11,8 @@ from tensorflow.keras.layers import Dense, Dropout
 nltk.download("punkt")
 nltk.download("wordnet")
 
-data = {"intents": [
-    {"tag": "greeting",
-     "patterns": ["Hello", "How are you?", "Hi there", "Hi", "Whats up"],
-     "responses": ["Howdy Partner!", "Hello", "How are you doing?", "Greetings!", "How do you do?"],
-    },
-    {"tag": "age",
-     "patterns": ["how old are you?", "when is your birthday?", "when was you born?"],
-     "responses": ["I am 18 years old", "I was born in 2004", "My birthday is March 25th and I was born in 2004", "03/25/2004"]
-    },
-    {"tag": "date",
-     "patterns": ["what are you doing this weekend?",
-"do you want to hang out some time?", "what are your plans for this week"],
-     "responses": ["I am available all week", "I don't have any plans", "I am not busy"]
-    },
-    {"tag": "name",
-     "patterns": ["what's your name?", "what are you called?", "who are you?"],
-     "responses": ["My name is Ani", "I'm Ani", "Ani"]
-    },
-    {"tag": "goodbye",
-     "patterns": [ "bye", "g2g", "see ya", "adios", "cya"],
-     "responses": ["It was nice speaking to you", "See you later", "Speak soon!"]
-    }
-]}
+with open('intents.json') as json_file:
+    data = json.load(json_file)
 
 # initializing lemmatizer to get stem of words
 lemmatizer = WordNetLemmatizer()
