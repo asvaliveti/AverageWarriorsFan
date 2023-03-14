@@ -1,4 +1,4 @@
-# NLP
+# Average Warriors Fan
 
 Installation:
 1) Clone this repository
