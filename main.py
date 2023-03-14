@@ -5,7 +5,8 @@ import nltk
 import numpy as np
 import json
 from nltk.stem import WordNetLemmatizer 
-import tensorflow as tf 
+import tensorflow as tf
+from tweets import Tweets
 from tensorflow.keras import Sequential 
 from tensorflow.keras.layers import Dense, Dropout
 nltk.download("punkt")
@@ -112,7 +113,10 @@ def get_response(intents_list, intents_json):
   list_of_intents = intents_json["intents"]
   for i in list_of_intents: 
     if i["tag"] == tag:
-      result = random.choice(i["responses"])
+      if i["tag"] == "twitter":
+        result = Tweets.getWarriorsTweet()
+      else: 
+        result = random.choice(i["responses"])
       break
   return result
 

@@ -122,5 +122,10 @@
       "tag": "frustration",
       "patterns": ["I'm so frustrated with the Warriors' performance lately", "Why are the Warriors struggling this season?"],
       "responses": ["I understand your frustration, but let's not lose hope! The Warriors are a talented team, and they're always working hard to improve. Let's keep supporting them through thick and thin!", "I know it can be tough to see our team struggle, but let's stay positive and trust in the Warriors' abilities. They're a resilient team, and they'll bounce back!", "I feel you, but let's not give up on the Warriors just yet. They have a strong legacy of winning, and they're always working hard to improve. Let's keep cheering them on!"]
+    },
+    {
+      "tag": "twitter",
+      "patterns": ["Give me a warriors Tweet", "what are other fans saying about the warriors?", "warriors twitter", "what are warriors fans thinking?"],
+      "responses": ["I am unable to find other tweets at the moment"]
     }
 ]}
