@@ -114,17 +114,18 @@ def get_response(intents_list, intents_json):
   for i in list_of_intents: 
     if i["tag"] == tag:
       if i["tag"] == "twitter":
-        result = Tweets.getWarriorsTweet()
+        result = "Here's what fans are saying about the warriors on twitter:\n" + Tweets.getWarriorsTweet()
       else: 
         result = random.choice(i["responses"])
       break
   return result
 
 # running the chatbot
-while True:
+end = False
+while not end:
     message = input("You: ")
     intents = pred_class(message, words, classes)
     result = get_response(intents, data)
     print("Average Warriors Fan: " + result)
-    if message in data["intents"][4]["responses"]:
-        break
+    if result in data["intents"][3]["responses"]:
+       end = True
