@@ -121,11 +121,8 @@ def get_response(intents_list, intents_json):
   return result
 
 # running the chatbot
-end = False
-while not end:
+while True:
     message = input("You: ")
     intents = pred_class(message, words, classes)
     result = get_response(intents, data)
     print("Average Warriors Fan: " + result)
-    if result in data["intents"][3]["responses"]:
-       end = True

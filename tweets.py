@@ -12,7 +12,7 @@ class Tweets:
 
         url = "https://twitter135.p.rapidapi.com/Search/"
 
-        querystring = {"q":"Golden State Warriors", "count": "20"}
+        querystring = {"q":"Golden State Warriors", "count": "20", "tweet_search_mode": "live"}
 
         headers = {
             "X-RapidAPI-Key": TWITTER_KEY,
