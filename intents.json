@@ -127,5 +127,40 @@
       "tag": "twitter",
       "patterns": ["Give me a warriors Tweet", "what are other fans saying about the warriors?", "warriors twitter", "what are warriors fans thinking?"],
       "responses": ["I am unable to find other tweets at the moment"]
+    },
+    {
+      "tag": "steph_curry",
+      "patterns": ["What do you think of Steph Curry?", "How good is Steph Curry?", "Tell me about Steph Curry"],
+      "responses": ["Steph Curry is one of the greatest shooters of all time and a leader on the court.", "GSOAT (Greatest Shooter of all time)", "The best PG to ever play the game of basketball", "The best baskeball player of all time.", "Baby face assasin."]
+    },
+    {
+      "tag": "klay_thompson",
+      "patterns": ["What are your thoughts on Klay Thompson?", "How good is Klay Thompson?", "Tell me about Klay Thompson"],
+      "responses": ["Klay Thompson is a lethal scorer and a great defender.", "He is the ideal three and D player", "His ability to come back from injury and still have the value he does is commendable."]
+    },
+    {
+      "tag": "draymond_green",
+      "patterns": ["Do you like Draymond Green?", "How good is Draymond Green?", "Tell me about Draymond Green"],
+      "responses": ["Draymond Green is a versatile player who brings energy and intensity to the game.", "If you're someone that doesn't see the value of him on the team, you probably only look at stats and scoring to judge a players value", "The warriors are very dependent on his defensive plays"]
+    },
+    {
+      "tag": "andrew_wiggins",
+      "patterns": ["What do you think of Andrew Wiggins?", "How good is Andrew Wiggins?", "Tell me about Andrew Wiggins"],
+      "responses": ["Andrew Wiggins is a talented scorer and defender who became an All-Star.", "One of the best players to come out of Canada", "MAPLE-JORDAN? What a jump after his time on the Timberwolves"]
+    },
+    {
+      "tag": "james_wiseman",
+      "patterns": ["What are your thoughts on James Wiseman?", "How good is James Wiseman?", "Tell me about James Wiseman"],
+      "responses": ["James Wiseman is a young and talented center with a lot of potential. Unfortuneatly we didn't get to see his full potential on this team, but he could be great for the Detroit Pistons", "He is an incredibly athletic center for his height, but can lack in IQ."]
+    },
+    {
+      "tag": "jordan_poole",
+      "patterns": ["Do you like Jordan Poole?", "How good is Jordan Poole?", "Tell me about Jordan Poole"],
+      "responses": ["Jordan Poole is a young and talented shooting guard who has shown flashes of brilliance.", "Future All-Star for sure.", "He has tendencies of a baby stephen curry."]
+    },
+    {
+      "tag": "damion_lee",
+      "patterns": ["What do you think of Damion Lee?", "How good is Damion Lee?", "Tell me about Damion Lee"],
+      "responses": ["Sydel Curry's husband is a decent role player for the phoenix suns, but didn't fare too well on the warriors."]
     }
 ]}
