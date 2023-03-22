@@ -23,10 +23,6 @@
      "patterns": [ "favorite player?", "who is your favorite player?", "who is the best player of all time", "who is the greatest three point shooter of all time", "best 3 pt shooter of all time"],
      "responses": ["Wardell Stephen Curry II", "Stephen Curry", "Lebron James' Father (Steph Curry)", "2 time MVP Steph Curry"]
     },
-    {"tag": "stats",
-     "patterns": [ "how many points is averaging?", "who is leading the league in scoring?", "how many rebounds is averaging?", "how many assists is averaging?"],
-     "responses": ["I cannot access live stats", "I am unable to search live stats, but I am sure that the warriors are leading that category", "Stats are fake anyway"]
-    },
     {
       "tag": "Greeting",
       "patterns": [
@@ -162,5 +158,10 @@
       "tag": "damion_lee",
       "patterns": ["What do you think of Damion Lee?", "How good is Damion Lee?", "Tell me about Damion Lee"],
       "responses": ["Sydel Curry's husband is a decent role player for the phoenix suns, but didn't fare too well on the warriors."]
+    },
+    {
+      "tag": "most_recent_game",
+      "patterns": ["what is the score of the game right now?", "Are the warriors winning?", "Did the Warriors win?", "How's the game going?", "what team won?"],
+      "responses": ["I can't find scores right now"]
     }
 ]}

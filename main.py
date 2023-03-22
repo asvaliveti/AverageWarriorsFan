@@ -7,6 +7,7 @@ import json
 from nltk.stem import WordNetLemmatizer 
 import tensorflow as tf
 from tweets import Tweets
+from stats import Stats
 from tensorflow.keras import Sequential 
 from tensorflow.keras.layers import Dense, Dropout
 nltk.download("punkt")
@@ -115,6 +116,8 @@ def get_response(intents_list, intents_json):
     if i["tag"] == tag:
       if i["tag"] == "twitter":
         result = "Here's what fans are saying about the warriors on twitter:\n" + Tweets.getWarriorsTweet()
+      elif i["tag"] == "most_recent_game":
+        result = Stats.getMostRecentGameSummary()
       else: 
         result = random.choice(i["responses"])
       break
@@ -125,4 +128,4 @@ while True:
     message = input("You: ")
     intents = pred_class(message, words, classes)
     result = get_response(intents, data)
-    print("Average Warriors Fan: " + result)
+    print("Average Warriors Fan: " + str(result))
