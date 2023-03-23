@@ -30,7 +30,3 @@ class Tweets:
             return "Here's what fans are saying about the warriors on twitter:\n" + tweetToReturn
         except:
             return "No tweets could be found at this time"
-    
-
-
-Tweets.getWarriorsTweet()

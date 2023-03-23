@@ -160,8 +160,8 @@
       "responses": ["Sydel Curry's husband is a decent role player for the phoenix suns, but didn't fare too well on the warriors."]
     },
     {
-      "tag": "most_recent_game",
-      "patterns": ["what is the score of the game right now?", "Are the warriors winning?", "Did the Warriors win?", "How's the game going?", "what team won?"],
+      "tag": "todays_game",
+      "patterns": ["what is the score of the game right now?", "Are the warriors winning?", "How's the game going?", "what team won tonight?", "Is there a warriors game today?", "when is the game at today?"],
       "responses": ["I can't find scores right now"]
     }
 ]}

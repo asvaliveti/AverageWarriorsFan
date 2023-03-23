@@ -116,7 +116,7 @@ def get_response(intents_list, intents_json):
     if i["tag"] == tag:
       if i["tag"] == "twitter":
         result = Tweets.getWarriorsTweet()
-      elif i["tag"] == "most_recent_game":
+      elif i["tag"] == "todays_game":
         result = Stats.getMostRecentGameSummary()
       else: 
         result = random.choice(i["responses"])
