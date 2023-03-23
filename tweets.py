@@ -27,7 +27,7 @@ class Tweets:
                 listToSelectTweetFrom.append(tweet)
 
             tweetToReturn = random.choice(listToSelectTweetFrom)
-            return tweetToReturn
+            return "Here's what fans are saying about the warriors on twitter:\n" + tweetToReturn
         except:
             return "No tweets could be found at this time"
     

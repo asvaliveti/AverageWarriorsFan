@@ -115,7 +115,7 @@ def get_response(intents_list, intents_json):
   for i in list_of_intents: 
     if i["tag"] == tag:
       if i["tag"] == "twitter":
-        result = "Here's what fans are saying about the warriors on twitter:\n" + Tweets.getWarriorsTweet()
+        result = Tweets.getWarriorsTweet()
       elif i["tag"] == "most_recent_game":
         result = Stats.getMostRecentGameSummary()
       else: 
