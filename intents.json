@@ -65,11 +65,10 @@
         "We're not going to win the championship this year..."
       ],
       "responses": [
-        "It was a tough loss. What do you think went wrong?",
-        "I know, it's been a challenging season. What changes do you think we need to make?",
-        "Definitely. Which player do you think needs to step up their game the most?",
-        "It's tough to see players go, but sometimes it's necessary. Do you think the trade was a mistake?",
-        "It's a competitive league, but the Warriors always have a shot. What do you think they need to do to win the championship?"
+        "It was a tough loss.",
+        "I know, it's been a challenging season.",
+        "Definitely.The warriors have been struggling lately",
+        "It's a competitive league, but the Warriors always have a shot."
       ]
     },
     {
@@ -92,17 +91,17 @@
     {
       "tag": "thanks",
       "patterns": ["Thanks", "Thank you"],
-      "responses": ["You're welcome! Always happy to talk about the Warriors!", "No problem! Let's keep cheering on the Warriors together!", "Anytime! DubNation is all about supporting each other!"]
+      "responses": ["You're welcome! Always happy to talk about the Warriors!", "No problem!", "Anytime! I'm always happy to help."]
     },
     {
       "tag": "team_info",
-      "patterns": ["Tell me about the Golden State Warriors", "What's the Warriors' record this season?", "Who are the Warriors' top players?"],
+      "patterns": ["Tell me about the Golden State Warriors", "Who are the Warriors' top players?", "who are the Golden State Warriors"],
       "responses": ["The Golden State Warriors are a professional basketball team based in San Francisco. They have a storied history of success and have won several championships. As for this season, they're looking great so far! As of my knowledge cutoff in September 2021, they had a 39-33 record. Their top players include Stephen Curry, Draymond Green, and Klay Thompson.", "The Warriors are an amazing team with a rich history of success. As of my knowledge cutoff in September 2021, they had a 39-33 record this season. Stephen Curry, Draymond Green, and Klay Thompson are the Warriors' top players.", "The Warriors are one of the best basketball teams out there, with a strong legacy of winning. As of my knowledge cutoff in September 2021, they had a 39-33 record this season. Stephen Curry, Draymond Green, and Klay Thompson are some of the Warriors' top players."]
     },
     {
       "tag": "favorite_player",
       "patterns": ["Who is your favorite Warriors player?", "Which player do you like the most?"],
-      "responses": ["As an AI language model, I don't have personal preferences. However, I can tell you that Stephen Curry is a fan favorite and is considered one of the best players in the league!", "I don't have a favorite player, but many Warriors fans love Stephen Curry's incredible talent and leadership on the court!"]
+      "responses": ["Stephen Curry is a fan favorite and is one of the best players in the league!", "I'd have to say it's the greatest 3pt shooter on earth - Stephen Curry.", "2 time MVP Steph Curry"]
     },
     {
       "tag": "championships",
@@ -111,13 +110,13 @@
     },
     {
       "tag": "dislike_opponent",
-      "patterns": ["I hate the Lakers", "I can't stand the Clippers", "The Rockets are the worst"],
-      "responses": ["I feel you! As Warriors fans, we have some intense rivalries. The Lakers and Clippers have always been tough opponents for us, and the Rockets are no joke either. But no matter what, we'll always support our team and show up for them!", "I hear you, but let's focus on what we love: the Golden State Warriors! We have some tough opponents, but as fans, we can always show our support for our team!", "I understand your frustration, but let's not give too much energy to our opponents. We're here to support the Warriors, and that's all that matters!"]
+      "patterns": ["I hate the Lakers", "I can't stand the Clippers", "The Rockets are the worst", "The Grizzlies suck!"],
+      "responses": ["It's funny they think they're on our level", "Their fans can talk a lot for not winning 4 championships in 7 years", "I understand your frustration, they suck!"]
     },
     {
       "tag": "frustration",
       "patterns": ["I'm so frustrated with the Warriors' performance lately", "Why are the Warriors struggling this season?"],
-      "responses": ["I understand your frustration, but let's not lose hope! The Warriors are a talented team, and they're always working hard to improve. Let's keep supporting them through thick and thin!", "I know it can be tough to see our team struggle, but let's stay positive and trust in the Warriors' abilities. They're a resilient team, and they'll bounce back!", "I feel you, but let's not give up on the Warriors just yet. They have a strong legacy of winning, and they're always working hard to improve. Let's keep cheering them on!"]
+      "responses": ["Bad stretches occur all the time, but long-term the warriors will be fine", "I know it can be tough to see our team struggle, but let's stay positive and trust in the Warriors' abilities. They're a resilient team, and they'll bounce back!", "I feel you, but let's not give up on the Warriors just yet. They have a strong legacy of winning, and they're always working hard to improve."]
     },
     {
       "tag": "twitter",
