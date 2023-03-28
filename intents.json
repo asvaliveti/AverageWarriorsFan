@@ -160,7 +160,7 @@
     },
     {
       "tag": "todays_game",
-      "patterns": ["what is the score of the game right now?", "Are the warriors winning?", "How's the game going?", "what team won tonight?", "Is there a warriors game today?", "when is the game at today?"],
+      "patterns": ["what is the score of the game right now?", "Are the warriors winning?", "How's the game going?", "what team won tonight?", "Is there a warriors game today?", "when is the game at today?", "did the warriors win?"],
       "responses": ["I can't find scores right now"]
     }
 ]}
