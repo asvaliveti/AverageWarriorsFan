@@ -1,0 +1,8 @@
+from firebase_admin import db
+import firebase_admin
+from firebase_admin import credentials
+
+cred = credentials.Certificate("averagewarriorsfan-firebase-adminsdk-p2vje-a99b39ba2f.json")
+firebase_admin.initialize_app(cred)
+
+ref = db.reference("/")
