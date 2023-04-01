@@ -9,21 +9,13 @@ firebase_admin.initialize_app(cred, {
     'databaseURL': 'https://averagewarriorsfan-default-rtdb.firebaseio.com/'
 })
 
-# Get a reference to the database
-ref = db.reference('chatbotConversations')
+input_ref = db.reference('inputMessages')
+chatbot = Chatbot()
+response = chatbot.inputMessage(input_ref.order_by_child("inputMessages").get()["message"])
 
-# Add data to the database
-new_conversation_ref = ref.push()
-
-# Listen for new messages
-def on_message_added(message):
-    chatbot = Chatbot()
-    response = chatbot.inputMessage(message)
-    new_conversation_ref.set({
-        'message': response,
-        'timestamp': {'.sv': 'timestamp'}  
-    })
-
-# get data from firebase front end
-returned = ref.order_by_child("timestamp").limit_to_last(1).get()
-print(returned)
+output_ref = db.reference('outputMessages')
+new_conversation_ref = output_ref.push()
+new_conversation_ref.set({
+    'message': response,
+    'timestamp': {'.sv': 'timestamp'}  
+})
