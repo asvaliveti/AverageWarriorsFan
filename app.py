@@ -1,9 +1,7 @@
 from flask import Flask, request, jsonify
 from chatbot import Chatbot
-from flask_cors import CORS
 
 app = Flask(__name__)
-cors = CORS(app)
 chatbot = Chatbot()
 
 # Define a POST endpoint for receiving messages from the frontend chatbot

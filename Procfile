@@ -1,1 +1,1 @@
-web: GUNICORN_CMD_ARGS="--bind=127.0.0.1 --workers=3" gunicorn app:app --preload
+web: gunicorn app:app --preload
