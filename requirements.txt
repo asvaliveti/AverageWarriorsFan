@@ -1,5 +1,4 @@
 Flask==2.2.2
-flask_cors==3.0.10
 nba_api==1.2
 nltk==3.8.1
 numpy==1.24.2
