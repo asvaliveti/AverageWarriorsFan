@@ -11,7 +11,6 @@ def handle_message():
     # Process the message and generate a response
     output = chatbot.inputMessage(message)
     response = {'response': output}
-    response.headers.add('Access-Control-Allow-Origin', '*')
     return jsonify(response)
 
 if __name__ == '__main__':
