@@ -5,14 +5,24 @@ import json
 app = Flask(__name__)
 chatbot = Chatbot()
 
+@app.after_request
+def after_request(response):
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
+    response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
+    return response
+
 # Define a POST endpoint for receiving messages from the frontend chatbot
 @app.route('/message', methods=['POST'])
 def handle_message():
+    print("called function")
     message = request.json['message']
+    print("message: " + message)
     # Process the message and generate a response
     output = chatbot.inputMessage(message)
+    print("output: " + output)
     response = make_response(jsonify({'response': output}))
-    response.headers["Access-Control-Allow-Origin"] = '*'
+    print("response: " + response)
     return response
 
 if __name__ == '__main__':
