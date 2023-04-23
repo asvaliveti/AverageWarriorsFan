@@ -142,3 +142,7 @@ class Chatbot:
       intents = self.pred_class(message, self.words, self.classes)
       result = self.get_response(intents, self.data)
       return result
+  
+
+  def testSuccess():
+     return "success"

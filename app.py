@@ -25,5 +25,10 @@ def handle_message():
     print("response: " + response)
     return response
 
+
+@app.route('/test', methods=['POST'])
+def handle_message():
+    return chatbot.testSuccess()
+
 if __name__ == '__main__':
     app.run(debug=True)
