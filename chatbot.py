@@ -144,5 +144,5 @@ class Chatbot:
       return result
   
 
-  def testSuccess():
+  def testSuccess(self):
      return "success"
