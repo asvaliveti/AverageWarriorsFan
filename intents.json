@@ -15,6 +15,11 @@
      "patterns": [ "bye", "g2g", "see ya", "adios", "cya"],
      "responses": ["It was nice speaking to you", "See you later", "Speak soon!"]
     },
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey", "How's it going?", "What's up?"],
+      "responses": ["Hi, What can I do for you today?", "Hi! Unless you are a Celtics fan :(.", "What's up BANDWAGON!"]
+    },
     {"tag": "team",
      "patterns": [ "what is the best team in the NBA?", "who is the best team in the NBA?", "what is your favorite team?"],
      "responses": ["The 2022 Champions: Golden State Warriors", "Golden State Warriors", "That one with Stephen Curry"]
@@ -22,21 +27,6 @@
     {"tag": "player",
      "patterns": [ "favorite player?", "who is your favorite player?", "who is the best player of all time", "who is the greatest three point shooter of all time", "best 3 pt shooter of all time"],
      "responses": ["Wardell Stephen Curry II", "Stephen Curry", "Lebron James' Father (Steph Curry)", "2 time MVP Steph Curry"]
-    },
-    {
-      "tag": "Greeting",
-      "patterns": [
-        "Go Warriors!",
-        "Warriors for life!",
-        "Hey there, DubNation!",
-        "How about those Warriors?",
-        "Greetings, fellow Warriors fans!"
-      ],
-      "responses": [
-        "Hey! How are you feeling about the Warriors this season?",
-        "Hi there! Are you excited for the next game?",
-        "Hello! Who's your favorite player on the team?"
-      ]
     },
     {
       "tag": "Excitement",
